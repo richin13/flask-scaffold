@@ -18,17 +18,22 @@ setup(
 
     classifiers=[
         'Development Status :: 3 - Alpha',
-
-        'Intended Audience :: Developers',
-        'Topic :: Software Development :: Utilities',
+        
         'Environment :: Console',
-
+        'Framework :: Flask',
+        'Intended Audience :: Developers',
+        
         'License :: OSI Approved :: MIT License',
+        
+        'Operating System :: Unix',
 
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
+
+        'Topic :: Software Development :: Code Generators',
+        'Topic :: Utilities',
     ],
 
     keywords='flask scaffold mongodb development',
