@@ -1,4 +1,6 @@
 click==6.7
 Jinja2==2.10
 MarkupSafe==1.0
+pychalk==2.0.0
 PyYAML==3.12
+six==1.11.0
