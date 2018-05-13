@@ -1,3 +1,6 @@
+[![PyPI](https://img.shields.io/pypi/v/flask-mongo-scaffold.svg?style=flat-square)](https://pypi.org/project/Flask-Mongo-Scaffold) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/flask-mongo-scaffold.svg?style=flat-square) [![license](https://img.shields.io/github/license/richin13/flask-scaffold.svg?style=flat-square)](https://github.com/richin13/flask-scaffold/blob/master/LICENSE)
+
+
 # Flask-Scaffold
 
 Simple tool to generate a brand new Flask application using MongoDB as data backend
