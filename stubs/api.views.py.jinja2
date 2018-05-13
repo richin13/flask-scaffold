@@ -1,0 +1,16 @@
+import json
+
+from flask import Blueprint, request, jsonify
+
+from ..models import Model
+
+api = Blueprint('api', __name__)
+
+@api.route('/')
+def index():
+    return jsonify({"message": "You're in the index"})
+
+@api.route('/models')
+def models():
+	return jsonify(Model.objects.all())
+

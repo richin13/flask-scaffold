@@ -1,0 +1,11 @@
+from datetime import datetime
+
+from flask_mongoengine import MongoEngine
+import mongoengine as me
+
+db = MongoEngine()
+
+
+class Model(db.Document):
+    created_at = me.DateTimeField(default=datetime.now)
+

@@ -1,0 +1,9 @@
+from {{ app_name }} import app
+
+@app.cli.command()
+def import():
+    pass
+
+if __name__ == '__main__':
+    app.run()
+

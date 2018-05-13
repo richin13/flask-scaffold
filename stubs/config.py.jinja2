@@ -1,0 +1,13 @@
+import os
+
+DEBUG = False
+BCRYPT_LOG_ROUNDS = 12
+SECRET_KEY = os.environ.get("SECRET_KEY", {{ secret_key }})
+
+MONGODB_SETTINGS = {
+    'host': os.environ.get('MONGODB_HOST', ''),
+    'username': os.environ.get('MONGODB_USER', ''),
+    'password': os.environ.get('MONGODB_PASSWORD', ''),
+    'db': '{{ app_name }}_db',
+}
+

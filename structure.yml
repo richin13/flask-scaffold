@@ -1,0 +1,21 @@
+(APP_NAME):
+  - (APP_NAME):
+    - api: [__init__.py, views.py]
+    - web:
+      - static:
+        - css:
+          - .keep
+        - js:
+          - .keep
+        - vendor:
+          - .keep
+      - templates: [base.html, index.html]
+      - __init__.py
+      - views.py
+    - __init__.py
+    - models.py
+  - instance:
+    - config.py
+  - config.py
+  - requirements.txt
+  - run.py
