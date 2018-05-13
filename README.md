@@ -20,6 +20,30 @@ $ flaask new blog
 
 ## Resulting app
 
+```
+├── blog
+│   ├── api
+│   │   ├── __init__.py
+│   │   └── views.py
+│   ├── __init__.py
+│   ├── models.py
+│   └── web
+│       ├── __init__.py
+│       ├── static
+│       │   ├── css
+│       │   ├── js
+│       │   └── vendor
+│       ├── templates
+│       │   ├── base.html
+│       │   └── index.html
+│       └── views.py
+├── config.py
+├── instance
+│   └── config.py
+├── requirements.txt
+└── run.py
+```
+
 The resulting app is a simple Flask application that comes with:
 
  - MongoEngine to connect with a MongoDB database backend
