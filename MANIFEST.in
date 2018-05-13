@@ -1,0 +1,5 @@
+# Include the YaML file that describes the directory tree
+include structure.yml
+
+# Include the templates
+recursive-include stubs *
