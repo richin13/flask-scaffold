@@ -33,7 +33,7 @@ setup(
 
     keywords='flask scaffold mongodb development',
     py_modules=['flask_scaffold'],
-    install_requires=['click', 'Jinja2', 'PyYAML'],
+    install_requires=['click', 'Jinja2', 'PyYAML', 'pychalk'],
     
     entry_points={
         'console_scripts': [
